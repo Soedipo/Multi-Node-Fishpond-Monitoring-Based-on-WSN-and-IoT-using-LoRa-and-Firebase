@@ -26,15 +26,15 @@ struct DEVICE
 } device[DEVICE_TOTAL];
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "TP-Link_1B14"
-#define WIFI_PASSWORD "94643053"
+#define WIFI_SSID "mywifi"
+#define WIFI_PASSWORD "mypass"
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyBzkNj60PD54vZKR6V6jWo4K0uHpxbUTF8"
+#define API_KEY "myapi"
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://fish-a2fc3-default-rtdb.firebaseio.com/"
+#define DATABASE_URL "myurl"
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "dipo.lendou@gmail.com"
-#define USER_PASSWORD "singamon"
+#define USER_EMAIL "myemail.com"
+#define USER_PASSWORD "mypass"
 
 // Function List
 void firebaseSetFloatAsync(String, float);
