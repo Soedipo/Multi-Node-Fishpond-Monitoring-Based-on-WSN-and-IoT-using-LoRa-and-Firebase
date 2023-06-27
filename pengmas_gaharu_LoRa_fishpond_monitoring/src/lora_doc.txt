@@ -1,0 +1,72 @@
+LORA AURORA V2
+
+------------
+GITHUB
+------------
+https://github.com/cosmic-id/cosmic-lora-aurora
+
+------------
+
+ESP32 MCU
+CH340 USB TTL Interface
+RFM95 LoRa Connectivity
+Built In Battery Charger Module
+Built in WS8212B RGB LED
+5x Analog 12 Bit
+1x I2C
+2x UART
+14x Digital Pin IO
+
+LORA AURORA V2 Pin Information :
+ESP32 | RFM
+----------------------------------------------------
+23--------------------------> RFM-MOSI
+19--------------------------> RFM-MISO
+18--------------------------> RFM-SCK
+2 --------------------------> RFM-NSS
+13--------------------------> RFM-RST
+14--------------------------> RFM-DIO0
+12--------------------------> RFM-DIO1
+32--------------------------> RFM-ENABLE
+34--------------------------> BATT-LEVEL
+33--------------------------> WS2812
+I2C--------------------------> BME280
+
+Detail spesification:
+
+Microcontroler Spesification
+ESP32 :
+-CPU Tensilica Xtensa LX6 160MHz
+-Operating Voltage 3.3V DC
+-Memory 520KiB SRAM
+Peripheral Interface :
+-12-bit SAR ADC up to 18 channels
+-2 × 8-bit DACs
+-10 × touch sensors (capacitive sensing GPIOs)
+-4 × SPI
+-2 × I²S interfaces
+-2 × I²C interfaces
+-3 × UART
+
+Wireless Connectivity :
+-Wi-Fi: 802.11 b/g/n
+-Bluetooth: v4.2 BR/EDR and BLE (shares the radio with Wi-Fi)
+
+WS2812 -> RGB LED
+
+Connectivity Spesification
+LoRa RFM95W :
+-915 MHz Frequency
+-168 dB maximum link budget.
+-up to +20 dBm - 100 mW constant RF output vs. V supply.
+-up to +14 dBm high efficiency PA.
+-Programmable bit rate up to 300 kbps.
+-Low RX current of 10.3 mA, 200 nA register retention.
+
+Available ADC:Pin 0, 4, 25, 26, 27, 32, 33, 34, 35, 37, 39
+
+====================
+BUNDLING
+====================
+1x LoRa Aurora
+1x Antenna LoRa
