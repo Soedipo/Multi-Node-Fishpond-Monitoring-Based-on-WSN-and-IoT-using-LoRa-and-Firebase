@@ -1,3 +1,10 @@
+/***
+    Lora WSN Node
+  
+  Created by Soediponegoro
+  June 2023
+***/
+
 #include <Arduino.h>
 #include <SPI.h>
 #include <LoRa.h>
