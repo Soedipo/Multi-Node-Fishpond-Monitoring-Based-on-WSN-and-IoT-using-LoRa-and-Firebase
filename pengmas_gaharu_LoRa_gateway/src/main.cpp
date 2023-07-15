@@ -1,3 +1,10 @@
+/***
+    Lora WSN Gateway
+  
+  Created by Soediponegoro
+  June 2023
+***/
+
 #include <Arduino.h>
 #include <SPI.h>
 #include <LoRa.h>
@@ -151,9 +158,6 @@ void loop()
       device[ID].name_root = String(device_root + device[ID].id + '/' + "name");
       device[ID].temperature_root = String(device_root + device[ID].id + '/' + "temperature");
       device[ID].ph_root = String(device_root + device[ID].id + '/' + "ph");
-      // temperature_root_to_firebase = String(device_root + device[ID].id + '/' + "temperature");
-      // ph_root_to_firebase = String(device_root + device[ID].id + '/' + "ph");
-      // name_root_to_firebase = String(device_root + device[ID].id + '/' + "name");
 
       Serial.println(device[ID].name_root);
       Serial.println(device[ID].temperature_root);
